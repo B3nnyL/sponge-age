@@ -5,7 +5,7 @@ const id = "zdIGTIdD1mi4";
 const url = `https://media.giphy.com/media/${id}/giphy.gif`;
 
 app.get("*", (req, res) => {
-  res.write(`<img src="${url}"/>`);
+  res.write(`<body><img src="${url}"></body>`);
   res.end();
 });
 
