@@ -3,7 +3,7 @@ const id = require("./api");
 const app = express();
 
 app.get("*", async (req, res) => {
-  const pageTitle = `Sponge Time`;
+  const pageTitle = `Have Some Spongebob Time`;
   const _id = await id();
   const url = `https://media.giphy.com/media/${_id}/giphy.gif`;
   const downsized_url = `https://media.giphy.com/media/${_id}/200w_d.gif`;
