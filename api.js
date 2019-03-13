@@ -6,6 +6,13 @@ module.exports = async function id() {
       process.env.API_KEY
     }&limit=1"`
   );
-  let result = await promise.json();
+  let result = "";
+  try {
+    result = await promise.json();
+    if (!result) throw "error";
+  } catch (error) {
+    console.error(error);
+    return;
+  }
   return result.data.id;
 };
