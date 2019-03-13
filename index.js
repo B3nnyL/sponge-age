@@ -14,7 +14,7 @@ app.get("*", (req, res) => {
       </head>`
   );
   res.write(
-    `<body style="margin: 0px; background: #0e0e0e;">
+    `<body style="margin: auto; background: #0e0e0e;">
     <img src="${url}"></body>`
   );
   res.end();
