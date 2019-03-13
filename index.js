@@ -13,7 +13,9 @@ async function id() {
   return result.data.id;
 }
 
-const _id = id();
+const _id = id()
+  .then(data => data)
+  .catch(err => console.error(err));
 const url = `https://media.giphy.com/media/${_id}/giphy.gif`;
 const downsized_url = `https://media.giphy.com/media/${_id}/200w_d.gif`;
 const pageTitle = `Sponge Time`;
