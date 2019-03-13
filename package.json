@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "fetch": "^1.1.0"
   },
   "scripts": {
     "start": "node ."
