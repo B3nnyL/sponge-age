@@ -1,6 +1,7 @@
 {
   "version": 2,
   "name": "sponge-age",
+  "alias": "sponge-age.now.sh",
   "env": {
     "API_KEY": "3ABkTp4vp1uBEi2PJxYEIezmWEVwfzff"
   },
