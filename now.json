@@ -3,7 +3,7 @@
   "name": "sponge-age",
   "alias": "sponge-age.now.sh",
   "env": {
-    "API_KEY": "3ABkTp4vp1uBEi2PJxYEIezmWEVwfzff"
+    "API_KEY": "eypWPn5CJtgjvs72y54Izetld0liN2I4"
   },
   "builds": [{
     "src": "**/*.js",
